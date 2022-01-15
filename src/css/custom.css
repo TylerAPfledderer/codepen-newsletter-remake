@@ -1,3 +1,15 @@
 .block-text {
   @apply font-body text-base;
 }
+
+.article-columns > tbody > tr > td {
+  @apply w-1/2 align-top;
+
+  &:first-of-type {
+    @apply pr-8;
+  }
+
+  &:last-of-type {
+    @apply pl-8;
+  }
+}
