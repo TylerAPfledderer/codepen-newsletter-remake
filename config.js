@@ -12,14 +12,25 @@
 module.exports = {
   build: {
     templates: {
-      source: 'src/templates',
+      source: "src/templates",
       destination: {
-        path: 'build_local',
+        path: "build_local",
       },
       assets: {
-        source: 'src/images',
-        destination: 'images',
+        source: "src/images",
+        destination: "images",
       },
     },
+    components: {
+      root: "src/components",
+    },
   },
-}
+  extraAttributes: {
+    table: {
+      cellpadding: 0,
+      cellspacing: 0,
+      role: "presentation",
+      style: "width: 100%; border-collapse: collapse;",
+    },
+  },
+};
