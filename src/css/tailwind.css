@@ -10,6 +10,8 @@
  * utilities can still override them.
 */
 
+@import "custom.css";
+
 /* Tailwind utility classes */
 @import "tailwindcss/utilities";
 
