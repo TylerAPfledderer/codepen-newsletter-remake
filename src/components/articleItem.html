@@ -1,0 +1,43 @@
+<td>
+  <table>
+    <tr>
+      <td class="p-12 bg-codepen-500 rounded">
+        <table>
+          <tr>
+            <td>
+              <img src="{{ articleImage }}" alt="" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <if condition="articleTag === 'sponsor'">
+                <span
+                  class="block font-body tracking-[2px] mt-12 text-xs uppercase leading-[1] text-yellow-300"
+                >
+                  {{ articleTag }}
+                </span>
+              </if>
+              <else>
+                <span
+                  class="block font-thin font-body tracking-[2px] mt-12 text-xs uppercase leading-[1]"
+                >
+                  {{ articleTag }}
+                </span>
+              </else>
+              <h2 class="font-heading text-lg text-link mt-4 mb-8">
+                {{articleTitle}}
+              </h2>
+              <p class="block-text text-sm mb-0">
+                <content></content>
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <!-- Separator between items in a single column -->
+    <tr>
+      <td role="separator" class="leading-48">&nbsp;</td>
+    </tr>
+  </table>
+</td>
