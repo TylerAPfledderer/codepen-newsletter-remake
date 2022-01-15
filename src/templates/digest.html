@@ -19,7 +19,7 @@ bodyClass: bg-codepen-800
             <tr>
               <td>
                 <img
-                  src="{{page.image}}"
+                  src="{{ page.image }}"
                   alt="CodePen Spark"
                   class="text-center"
                 />
@@ -68,6 +68,234 @@ bodyClass: bg-codepen-800
                   Coyier sits down with superstar community member Jhey Tompkins
                   for a chat about Jhey's creative process.
                 </p>
+              </td>
+            </tr>
+          </table>
+        </component>
+      </tr>
+      <tr>
+        <component src="/sectionContainer.html">
+          <table class="article-columns">
+            <tr>
+              <!-- Column 1 -->
+              <td>
+                <table>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/vZmGZBmbRnCcqXwoO2C5_barnsley-fern.png",
+                      "articleTag": "pen",
+                      "articleTitle": "Barnsley Fern Playground"}'
+                    >
+                      Dillo demonstrates the beautiful geometry of Barnsley
+                      ferns with an interactive Pen. The Pen's description gives
+                      a tutorial on the affine transformations that form the
+                      fern.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/iKMZpOIbQ16fUtCBJtF1_DODX3915-600x600-A.jpg",
+                      "articleTag": "sponsor",
+                      "articleTitle": "DigitalOcean App Platform"}'
+                    >
+                      DigitalOcean App Platform is a Platform as a Service
+                      solution that helps you build modern, cloud-native apps
+                      for a lot less money. We’ll handle the infrastructure, app
+                      runtimes and dependencies, so that you can push code to
+                      production in just a few clicks.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/d3xjFM3DS3SAuIcFIKEg_out-of-bounds.png",
+                      "articleTag": "pen",
+                      "articleTitle": "Out-of-Bounds: Generating and disposing of objects in Three.js and Cannon.js"}'
+                    >
+                      "Properly disposing of objects to free up memory is vital
+                      in a WebGL application. As the balls fall over the edge,
+                      we rapidly and proportionally decrease their opacity, and
+                      when the opacity reaches zero, we dispose of the material
+                      and geometry and remove them from the physics world and
+                      render lists." From HoraceShmorace.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/KtaNa8nkQj68MQDdFwjz_349-jhey.png",
+                      "articleTag": "pen",
+                      "articleTitle": "CodePen Radio #348: With Jhey"}'
+                    >
+                      Jhey Tompkins is one of the most prolific CodePen creators
+                      out there! His creations tend to have a twist of whimsy
+                      while being beautifully designed as well as pushing the
+                      platform in unique ways. You’ll always be surprised at a
+                      Jhey Pen! Chris talks with him about the creative process,
+                      problem-solving, and sharing what you learn.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/JhAc7wVTTiGDSNGSDSk4_DODX3915-600x600-1(1).png",
+                      "articleTag": "sponsor",
+                      "articleTitle": "Secure Apps Automatically"}'
+                    >
+                      We create, manage and renew your SSL certificates and also
+                      protect your apps from DDoS attacks. Focus on what matters
+                      the most: building awesome apps. Let us handle
+                      provisioning and managing infrastructure, operating
+                      systems, databases, application runtimes, and other
+                      dependencies.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/Ykf1bpacSNes42nQzkrh_moiremotion.png",
+                      "articleTag": "pen",
+                      "articleTitle": "Based on Moirémotion"}'
+                    >
+                      Toshiya Marukubo pays tribute to the interactive print
+                      book "Moirémotion" by Takahiro Kurashima in JavaScript.
+                      Hover to move the moiré panel over the background and
+                      create the illusion of animation.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/KTrkGLGTMilphzuJlh4P_generative-snowflakes.png",
+                      "articleTag": "pen",
+                      "articleTitle": "Generative Snowflakes"}'
+                    >
+                      "Every snowflake is individual". Huge, colorful flakes
+                      fall and accumulate in this generative snowstorm built
+                      with Cannon and Three.js by Lea Rosema.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/6ZiPUgCwS0awB3UMsGC9_matrix-resurrrections.png",
+                      "articleTag": "pen",
+                      "articleTitle": "The Matrix Resurrections"}'
+                    >
+                      This minimal take on The Matrix series' iconic green lines
+                      of code is #26 in a series of CSS/JavaScript "digital
+                      posters" from Sparklingman.
+                    </component>
+                  </tr>
+                </table>
+              </td>
+              <!-- Column 2 -->
+              <td>
+                <table>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/UdMuTDcAReuznwAzm6ci_best-css-cuboid.png", "articleTag": "Pen", "articleTitle": "Best CSS 3D Cuboid Ever"}'
+                    >
+                      "How many DIVs do we need to make a cube? Seven? Six?
+                      Probably three? NO. Two DIVs are enough not only to make a
+                      cube but also to make a flexible cuboid. Here is a demo
+                      Pen showing how we can do that". From S. Shahriar.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/ltCf4GzQ621D3AV6Ykgp_cut-corner-cool-button.png", "articleTag": "Pen", "articleTitle": "Cut Corner Cool Button"}'
+                    >
+                      Can't go wrong with a cool button! Temani Afif shares a
+                      trio of button styles with "No extra element, No pseudo
+                      element. Easy to adjust using CSS variables".
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/M7tYISEqTIevue0afho1_DODX3915-600x600-2.jpeg", "articleTag": "sponsor", "articleTitle": "Build and Deploy Apps at Scale"}'
+                    >
+                      Simply point App Platform to your Github or GitLab
+                      repository and let it do all the heavy lifting related to
+                      your infrastructure. Build, deploy, manage, and scale apps
+                      • Support for Node.js, Python, Go, PHP, Ruby, Docker,
+                      static sites, and more • Zero infrastructure management •
+                      Highly scalable
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/pfb45sHcRemdleLPWZoQ_petite-patterns-moon.png", "articleTag": "pen", "articleTitle": "Moon Surface (416 Bytes) #PetitePatterns"}'
+                    >
+                      Bence Szabo creates a moon surface pattern as the final
+                      piece in a yearlong personal challenge, #PetitePatterns:
+                      "to create a unique organic pattern or texture each week
+                      in pure SVG. Size limit was 560 bytes (2 tweets)."
+                      Congrats, Bence!
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/J1414hFKRCSbneL3kCnX_cpc-gsap-flip.png", "articleTag": "collection", "articleTitle": "#CodePenChallenge: Flip"}'
+                    >
+                      Flip through our collection of Pens from the final week of
+                      the December "Animation with GreenSock" challenge,
+                      including Manolis Kalafatis' flippin' clever anagram.
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/0LwggQJsTMqPksaw0nUf_DODX3915-600x600-B.jpg", "articleTag": "sponsor", "articleTitle": "Scale Apps, Not Costs"}'
+                    >
+                      Keep costs low and easily optimize resources and costs as
+                      you scale apps. By running App Platform on DigitalOcean’s
+                      infrastructure, we make it simpler for you to control
+                      costs. Build, deploy, and scale apps and static websites
+                      faster and easier than ever using a simple, intuitive
+                      interface. Get started for FREE!
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/0LwggQJsTMqPksaw0nUf_DODX3915-600x600-B.jpg", "articleTag": "sponsor", "articleTitle": "Scale Apps, Not Costs"}'
+                    >
+                      Keep costs low and easily optimize resources and costs as
+                      you scale apps. By running App Platform on DigitalOcean’s
+                      infrastructure, we make it simpler for you to control
+                      costs. Build, deploy, and scale apps and static websites
+                      faster and easier than ever using a simple, intuitive
+                      interface. Get started for FREE!
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/N95Y35nTQCF9G2szt86G_single-div-flickering-neon.png", "articleTag": "pen", "articleTitle": "Single Div Flickering Neon Text"}'
+                    >
+                      Sometimes, a little nudge is all you need. anniebombanie
+                      shares a CSS text animation with a friendly reminder on
+                      the first step of any important process: just start!
+                    </component>
+                  </tr>
+                  <tr>
+                    <component
+                      src="/articleItem.html"
+                      locals='{"articleImage": "https://production-codepen-email-assets.s3-us-west-2.amazonaws.com/production/I2NqvWg2RVmtkwjYoYWH_fizz-buzz-raskin.png", "articleTag": "pen", "articleTitle": "FizzBuzz"}'
+                    >
+                      Noah Raskin gives the infamous coding challenge "FizzBuzz"
+                      a stylish reset with this tidy table of results.
+                    </component>
+                  </tr>
+                </table>
               </td>
             </tr>
           </table>
