@@ -1,11 +1,16 @@
 <td>
   <table>
     <tr>
-      <td class="p-12 bg-codepen-500 rounded">
+      <td class="p-12 rounded bg-codepen-500">
         <table>
           <tr>
             <td>
-              <img src="{{ articleImage }}" alt="" />
+              <img
+                src="{{ articleImage }}"
+                alt=""
+                width="244"
+                style="height: auto"
+              />
             </td>
           </tr>
           <tr>
@@ -24,10 +29,10 @@
                   {{ articleTag }}
                 </span>
               </else>
-              <h2 class="font-heading text-lg text-link mt-4 mb-8">
+              <h2 class="mt-4 mb-8 text-lg font-heading text-link">
                 {{articleTitle}}
               </h2>
-              <p class="block-text text-sm mb-0">
+              <p class="mb-0 text-sm block-text">
                 <content></content>
               </p>
             </td>
