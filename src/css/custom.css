@@ -12,4 +12,9 @@
   &:last-of-type {
     @apply pl-8;
   }
+  }
+}
+
+.article-tag {
+  @apply block font-body tracking-[2px] pt-12 text-xs uppercase leading-[1];
 }

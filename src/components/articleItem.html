@@ -16,18 +16,12 @@
           <tr>
             <td>
               <if condition="articleTag === 'sponsor'">
-                <span
-                  class="block font-body tracking-[2px] mt-12 text-xs uppercase leading-[1] text-yellow-300"
-                >
+                <span class="text-yellow-300 article-tag">
                   {{ articleTag }}
                 </span>
               </if>
               <else>
-                <span
-                  class="block font-thin font-body tracking-[2px] mt-12 text-xs uppercase leading-[1]"
-                >
-                  {{ articleTag }}
-                </span>
+                <span class="article-tag"> {{ articleTag }} </span>
               </else>
               <h2 class="mt-4 mb-8 text-lg font-heading text-link">
                 {{articleTitle}}
