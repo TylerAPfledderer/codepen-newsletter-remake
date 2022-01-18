@@ -10,7 +10,7 @@ p {
 }
 
 .block-text {
-  @apply font-body text-base;
+  @apply pb-24 text-base font-body;
 }
 
 .article-columns > tbody > tr > td {
