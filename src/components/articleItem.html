@@ -16,17 +16,25 @@
           <tr>
             <td align="left">
               <if condition="articleTag === 'sponsor'">
-                <span class="text-yellow-300 article-tag">
-                  {{ articleTag }}
-                </span>
+                <table>
+                  <tr>
+                    <td class="text-yellow-300 article-tag">
+                      {{ articleTag }}
+                    </td>
+                  </tr>
+                </table>
               </if>
               <else>
-                <span class="article-tag"> {{ articleTag }} </span>
+                <table>
+                  <tr>
+                    <td class="article-tag">{{ articleTag }}</td>
+                  </tr>
+                </table>
               </else>
-              <h2 class="pt-4 pb-8 text-lg font-heading text-link">
+              <h2 class="mt-4 mb-8 text-lg font-heading text-link">
                 {{articleTitle}}
               </h2>
-              <p class="pb-0 text-sm block-text" prevent-widows>
+              <p class="mb-0 text-sm block-text" prevent-widows>
                 <content></content>
               </p>
             </td>
