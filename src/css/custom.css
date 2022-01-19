@@ -13,16 +13,18 @@ p {
   @apply pb-24 text-base font-body;
 }
 
-.article-columns > tbody > tr > td {
-  @apply w-1/2 align-top;
+.article-columns {
+  @apply text-center text-0;
+  & div {
+    @apply inline-block max-w-[268px] align-top;
 
-  &:first-of-type {
-    @apply pr-8;
-  }
+    &:first-of-type {
+      @apply pr-8;
+    }
 
-  &:last-of-type {
-    @apply pl-8;
-  }
+    &:last-of-type {
+      @apply pl-8;
+    }
   }
 }
 
