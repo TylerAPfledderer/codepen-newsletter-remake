@@ -29,5 +29,5 @@ p {
 }
 
 .article-tag {
-  @apply block font-body tracking-[2px] pt-12 text-xs uppercase leading-[1];
+  @apply block font-body text-codepen-400 tracking-[2px] pt-12 text-xs uppercase leading-[1];
 }
