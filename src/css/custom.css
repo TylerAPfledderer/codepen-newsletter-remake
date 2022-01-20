@@ -9,6 +9,10 @@ p {
   mso-line-height-rule: exactly;
 }
 
+a {
+  @apply no-underline text-link;
+}
+
 .block-text {
   @apply mb-24 text-base font-body;
 }
