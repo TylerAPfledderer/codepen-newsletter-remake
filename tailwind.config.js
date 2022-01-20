@@ -22,6 +22,10 @@ module.exports = {
           sponsor: "#fedd41",
         },
       },
+      backgroundImage: {
+        "rainbow-gradient":
+          "linear-gradient(92.63deg, rgb(118, 154, 255) 8.23%, rgb(255, 221, 64) 25.83%, rgb(241, 153, 148) 51.91%, rgb(71, 207, 115) 68.56%)",
+      },
       spacing: {
         screen: "100vw",
         full: "100%",
