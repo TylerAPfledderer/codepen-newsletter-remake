@@ -13,6 +13,20 @@ a {
   @apply no-underline text-link;
 }
 
+ul,
+li {
+  @apply m-0;
+}
+
+ul {
+  @apply p-0 pl-40 list-disc;
+}
+
+li {
+  @apply text-left;
+  mso-special-format: bullet;
+}
+
 .block-text {
   @apply mb-24 text-base font-body;
 }
