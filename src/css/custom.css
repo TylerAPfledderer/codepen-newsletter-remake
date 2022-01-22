@@ -31,6 +31,10 @@ li {
   @apply mb-24 text-base font-body;
 }
 
+.section-padding-x {
+  @apply px-24;
+}
+
 .article-tag {
   @apply block font-body text-codepen-400 tracking-[2px] pt-12 text-xs uppercase leading-[1];
 }
