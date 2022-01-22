@@ -35,6 +35,10 @@ li {
   @apply px-24;
 }
 
+.article-column {
+  @apply align-top w-[268px] px-8 sm:block;
+}
+
 .article-tag {
   @apply block font-body text-codepen-400 tracking-[2px] pt-12 text-xs uppercase leading-[1];
 }
