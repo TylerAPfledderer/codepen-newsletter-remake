@@ -1,9 +1,12 @@
 {
+  "homepage": "http://tylerapfledderer.github.io/codepen-newsletter-remake",
   "private": true,
   "scripts": {
     "local": "maizzle build",
     "production": "maizzle build production",
-    "watch": "maizzle serve"
+    "watch": "maizzle serve",
+    "predeploy": "npm run production",
+    "deploy": "gh-pages -d build_production"
   },
   "dependencies": {
     "@maizzle/framework": "^3.0.0"
