@@ -13,10 +13,16 @@ module.exports = {
   build: {
     templates: {
       destination: {
-        path: 'build_production',
+        path: "build_production",
       },
     },
   },
   inlineCSS: true,
   removeUnusedCSS: true,
-}
+  minify: {
+    removeLineBreaks: true,
+  },
+  removeUnusedCSS: {
+    whitelist: [".External*"],
+  },
+};
