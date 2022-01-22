@@ -31,21 +31,6 @@ li {
   @apply mb-24 text-base font-body;
 }
 
-.article-columns {
-  @apply text-center text-0;
-  & div {
-    @apply inline-block max-w-[268px] align-top;
-
-    &:first-of-type {
-      @apply pr-8;
-    }
-
-    &:last-of-type {
-      @apply pl-8;
-    }
-  }
-}
-
 .article-tag {
   @apply block font-body text-codepen-400 tracking-[2px] pt-12 text-xs uppercase leading-[1];
 }
